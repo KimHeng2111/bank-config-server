@@ -1,8 +1,8 @@
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5433/loan_db
-    username: loan_prod
-    password: 123456
+    username: "{chipher}d59a2ee717b546ca5cd25a4472c5fa53c70e09543b0aff4a11dc5d0fc7870fd8"
+    password: "{chipher}2a801c23899f57f34d1d37aeb46255db9d1c6d31756a7be514ecb4754622ede5"
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
