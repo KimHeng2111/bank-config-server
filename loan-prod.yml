@@ -1,6 +1,4 @@
 spring:
-  application:
-    name: loan-prod
   datasource:
     url: jdbc:postgresql://localhost:5433/loan_db
     username: loan_prod
@@ -11,4 +9,4 @@ spring:
       ddl-auto: update
     show-sql: true
 server:
-  port: 8081
+  port: 8083

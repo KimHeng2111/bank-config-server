@@ -1,9 +1,7 @@
 spring:
-  application:
-    name: loan-dev
   datasource:
     url: jdbc:postgresql://localhost:5433/loan_db
-    username: loan_dev
+    username: loan_admin
     password: 123456
     driver-class-name: org.postgresql.Driver
   jpa:
@@ -11,4 +9,4 @@ spring:
       ddl-auto: update
     show-sql: true
 server:
-  port: 8081
+  port: 8082
