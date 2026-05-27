@@ -3,5 +3,3 @@ spring:
     name: account
   mongodb:
     uri: "{cipher}3a397c5ae61cf69f69bd5528a228bb184cac453830f68d7a182007e20b55dba12e3b603d73dc8a48af04395cc61c08148ae7e23d4addd02da6a1890a62ef28bacc845b6de15866a096ccdc353df8f638"
-server:
-  port: 8091
