@@ -10,4 +10,6 @@ logging:
     com.netflix.discovery: OFF
 info:
   app:
-    name: Eureka Production Server TEST
+    name: Eureka Default Server
+    description: KimHengMicroServiceBank
+    version: 1.0.1
