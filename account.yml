@@ -3,3 +3,8 @@ spring:
     name: account
   mongodb:
     uri: "{cipher}d94803b14bfb93430bcde4d187abc35b1c0ba6c39ecbdedde4537e5372e45bf7a4580477f29eccdfdace6eac59315e24b5a6a5ac7a1a0afb01886f74f4d1d6b74d3938e204bfc71de95047e277968b8a1b121f95d4a885fc125b7c5fa798676b"
+info:
+  app:
+    name: Account Default Microservice
+    description: KimHengMicroServiceBank
+    version: 1.0.1

@@ -8,3 +8,6 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+info:
+  app:
+    name: Loan Development Microservice

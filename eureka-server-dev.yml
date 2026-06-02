@@ -8,3 +8,6 @@ logging:
   level:
     com.netflix.eureka: OFF
     com.netflix.discovery: OFF
+info:
+  app:
+    name: Eureka Development Server

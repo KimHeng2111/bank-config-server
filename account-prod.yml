@@ -3,3 +3,6 @@ spring:
     name: account
   mongodb:
     uri: "{cipher}fa29026e4302e52009760762b0f09030f29906e1cd3fe4c3ea03073509d7b259793185580ed9fabdc0840370b5d4a49f0ba56180a87db7420b93e6929bc2b2c07e5276372e9871a4f160eb2eb7c1ecc3e24ad76d7040f0796415b5bcc486fce4"
+info:
+  app:
+    name: Account Production Microservice
