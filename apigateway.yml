@@ -1,0 +1,14 @@
+sprint.cloud:
+  gateway:
+    discorvery:
+      locator:
+        enabled: true
+management:
+  endpoint:
+    gateway:
+      enabled: true
+info:
+  app:
+    name: API GATEWAY Default Microservice
+    description: KimHengMicroServiceBank
+    version: 1.0.1
