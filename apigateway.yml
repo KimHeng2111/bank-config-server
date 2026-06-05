@@ -6,9 +6,13 @@ spring:
           enabled: true # បើកមុខងារឱ្យ Gateway ទៅលួចមើលបញ្ជីឈ្មោះសេវាកម្មពី Eureka
           lower-case-service-id: true # ប្តូរឈ្មោះ Service ទៅជាអក្សរតូចទាំងអស់ ដើម្បីងាយស្រួលហៅតាម URL
 management:
+  endpoints:
+    web:
+      exposure:
+        include: "health,info,gateway" # បើកបង្ហាញ Endpoint ទាំងអស់រួមទាំង Gateway
   endpoint:
     gateway:
-      enabled: true
+      enabled: true # បើកមុខងារគ្រប់គ្រង Route តាម Actuator
 info:
   app:
     name: API GATEWAY Default Microservice
