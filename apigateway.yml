@@ -1,8 +1,9 @@
-sprint.cloud:
-  gateway:
-    discorvery:
-      locator:
-        enabled: true
+spring:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
 management:
   endpoint:
     gateway:
