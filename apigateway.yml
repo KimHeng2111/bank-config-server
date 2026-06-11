@@ -1,10 +1,12 @@
 spring:
   cloud:
     gateway:
-      discovery:
-        locator:
-          enabled: true # បើកមុខងារឱ្យ Gateway ទៅលួចមើលបញ្ជីឈ្មោះសេវាកម្មពី Eureka
-          lower-case-service-id: true # ប្តូរឈ្មោះ Service ទៅជាអក្សរតូចទាំងអស់ ដើម្បីងាយស្រួលហៅតាម URL
+      server:
+        webflux:
+          discovery:
+            locator:
+              enabled: true # បើកមុខងារឱ្យ Gateway ទៅលួចមើលបញ្ជីឈ្មោះសេវាកម្មពី Eureka
+              lower-case-service-id: true # ប្តូរឈ្មោះ Service ទៅជាអក្សរតូចទាំងអស់ ដើម្បីងាយស្រួលហៅតាម URL
 management:
   endpoints:
     web:

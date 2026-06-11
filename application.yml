@@ -14,3 +14,7 @@ eureka:
     fetch-registry: true
     serviceUrl:
       defaultZone: http://${EUREKA_SERVER:localhost}:${EUREKA_PORT:9000}/eureka/
+logging:
+  level:
+    com:
+      kimheng: DEBUG
